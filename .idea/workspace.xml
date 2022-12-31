@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8d20cf69-22f5-4f55-be66-abd0a1cc6629" name="Changes" comment="Start of Project">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Blockchain_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="8d20cf69-22f5-4f55-be66-abd0a1cc6629" name="Changes" comment="Start of Project - First Build">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Blockchain_jar/Blockchain.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Blockchain_jar/Blockchain.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Blockchain/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Blockchain/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +29,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "project.structure.last.edited": "Artifacts",
+    "last_opened_file_path": "D:/BMRP_S1/servers/[core]",
+    "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
   }
@@ -50,7 +51,21 @@
       <option name="project" value="LOCAL" />
       <updated>1672187323463</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Start of Project - First Build">
+      <created>1672187636004</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1672187636004</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Start of Project - First Build">
+      <created>1672187672622</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1672187672622</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -66,6 +81,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Start of Project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Start of Project" />
+    <MESSAGE value="Start of Project - First Build" />
+    <option name="LAST_COMMIT_MESSAGE" value="Start of Project - First Build" />
   </component>
 </project>
