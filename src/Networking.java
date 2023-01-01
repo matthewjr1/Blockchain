@@ -11,17 +11,21 @@ public class Networking {
             ServerSocket serverSocket = new ServerSocket(1000);
             try{
                 while (serverSocket.isBound()){
-                    System.out.println("Waiting for Connection");
-                    Socket socket = serverSocket.accept();
-                    System.out.println("Accepted Connection from: "+ socket.getInetAddress());
-                    ObjectInputStream OIS = new ObjectInputStream(socket.getInputStream());
-                    ObjectOutputStream OOS = new ObjectOutputStream(socket.getOutputStream());
+                    try {
+                        System.out.println("Waiting for Connection");
+                        Socket socket = serverSocket.accept();
+                        System.out.println("Accepted Connection from: " + socket.getInetAddress());
+                        ObjectInputStream OIS = new ObjectInputStream(socket.getInputStream());
+                        ObjectOutputStream OOS = new ObjectOutputStream(socket.getOutputStream());
 
-                    String Request = (String) OIS.readLine();
+                        String Request = (String) OIS.readLine();
 
-                    switch (Request){
-                        case "Hello":
-                            OOS.writeObject("1234");
+                        switch (Request) {
+                            case "Hello":
+                                OOS.writeObject("1234");
+                        }
+                    }catch (Exception exception){
+
                     }
                 }
 
