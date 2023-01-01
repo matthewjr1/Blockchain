@@ -1,16 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Blockchain:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="8d20cf69-22f5-4f55-be66-abd0a1cc6629" name="Changes" comment="Start of Project - First Build">
+      <change afterPath="$PROJECT_DIR$/External/bcprov-jdk16-1.46.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Networking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StringUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blockchain.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Blockchain.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/Blockchain_jar/Blockchain.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Blockchain_jar/Blockchain.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Blockchain/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Blockchain/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -19,18 +34,21 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2JWICCtFgqVzZB84E9KJzLd1gJ6" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "D:/BMRP_S1/servers/[core]",
-    "project.structure.last.edited": "SDKs",
+    "last_opened_file_path": "D:/SelfProjects/Blockchain/External",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
   }
@@ -65,7 +83,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672187672622</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Start of Project - First Build">
+      <created>1672526679663</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1672526679663</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -80,6 +105,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Start of Project" />
     <MESSAGE value="Start of Project - First Build" />
     <option name="LAST_COMMIT_MESSAGE" value="Start of Project - First Build" />

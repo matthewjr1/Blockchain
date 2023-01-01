@@ -11,9 +11,13 @@ public class Main {
 
     public static void Start(){
         try {
-            while (true){
-                System.out.println("WORKING");
-                Thread.sleep(10000);
+            Thread Network_Talk = new Thread(Networking::Net_Talk);
+
+            System_Threads.add(Network_Talk);
+
+            for (Thread thread1: System_Threads){
+                thread1.start();
+                System.out.println("Started Thread: "+ thread1);
             }
         }catch (Exception ex){
 
